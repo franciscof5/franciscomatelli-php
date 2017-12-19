@@ -94,32 +94,36 @@ var WRInitTime=(new Date()).getTime();
 					<td>
 						<h1> 
 							<?php
-							$tit = $_GET['titulo'];
+							
 							
 							//vai para default se nao tiver setado, FM 6/fev/08
 							if(!isset($_GET['titulo']))
-							$tit = "Como posso ajudar?";
-							
+								$tit = "Como posso ajudar?";
+							else
+								$tit = $_GET['titulo'];
+
 							//Depende da página que o contato vier muda a página toda, FM 6/fev/08
 							echo $tit;
-							echo "<input type='hidden' name='origem' value='".$_GET['titulo']."' />";
+							echo "<input type='hidden' name='origem' value='".$tit."' />";
 							?>
 						</h1>
 						<br />
 						<p> 
 							<?php
-							$desc = $_GET['desc'];
+							
 							
 							//vai para default se nao tiver setado, FM 6/fev/08
 							if(!isset($_GET['desc']))
-							$desc = "Como deseja realizar o pagamento:";
+								$desc = "Como deseja realizar o pagamento:";
+							else
+								$desc = $_GET['desc'];
 							
 							//Depende da página que o contato vier muda a página toda, FM 6/fev/08
 							echo $desc;
 							?>
 						</p>
 							<?php
-							$textarea = $_GET['textarea'];
+							#$textarea = $_GET['textarea'];
 							
 							//vai para default se nao tiver setado, FM 6/fev/08
 							if(!isset($_GET['textarea'])) {
@@ -139,10 +143,12 @@ var WRInitTime=(new Date()).getTime();
 					</td>
 					<td align="right">
 							<?php
-							$label = $_GET['label'];
+							
 							//vai para default se nao tiver setado, FM 6/fev/08
 							if(!isset($_GET['label']))
-							$label = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+								$label = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enviar!&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
+							else
+								$label = $_GET['label'];
 							?>
 						<input type="submit" value=<?php echo "    ".$label."     "; ?> id="submit"/>&nbsp;&nbsp;
 					</td>
