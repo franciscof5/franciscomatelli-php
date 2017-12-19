@@ -51,8 +51,8 @@
 <meta name="keywords" content="Projetos, detalhes, descubra, clientes, satisfeitos, projetos" />
 
 <!-- Folha de estilo padrão -->
-<link href="/include/franciscomatelli_estilo.css" rel="stylesheet" type="text/css" />
-<link href="/include/portfolio.css" rel="stylesheet" type="text/css" />
+<link href="include/franciscomatelli_estilo.css" rel="stylesheet" type="text/css" />
+<link href="include/portfolio.css" rel="stylesheet" type="text/css" />
 
 <!-- Galeria de Imagem -->
 <script type="text/javascript" src="include/ibox/ibox.js"></script>
@@ -64,8 +64,8 @@
 
 <?php
 //Chama o cabeçalho e menu, FM 6/fev/08
-require_once($_SERVER['DOCUMENT_ROOT']."/header.php");
-require_once($_SERVER['DOCUMENT_ROOT']."/menu.php");
+require_once(dirname(__FILE__)."/header.php");
+require_once(dirname(__FILE__)."/menu.php");
 
 if($_GET['projeto'])
 $trilha = "<span class='trilha'><a href='index.php'>Home</a> > <a href='portfolio.php'>Portfolio</a> > </span><span class='trilhaDestaque'>".$_GET['projeto']."</span>";
@@ -277,7 +277,7 @@ $arte = array($crs);
 <?php
 
 //ESTA COM PROBLEMA, SEM FOOTER NESSA PÁGINA, FM 6/fev/08
-//require_once($_SERVER['DOCUMENT_ROOT']."/footer.php");
+//require_once(dirname(__FILE__)."/footer.php");
 ?>
 
 </body>

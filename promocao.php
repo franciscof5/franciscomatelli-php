@@ -41,17 +41,17 @@
 <!-- As palavras chave indexadas pelos sistemas de busca, os melhores sistemas de busca verificam no site se as palavras batem (match)-->
 <meta name="keywords" content="Promoção de graça sorteio brinde grátis vtiger vtigerCRM instalação install" />
 
-<link href="/include/franciscomatelli_estilo.css" rel="stylesheet" type="text/css" />
-<link href="/include/promocao.css" rel="stylesheet" type="text/css" />
+<link href="include/franciscomatelli_estilo.css" rel="stylesheet" type="text/css" />
+<link href="include/promocao.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
 	<?php
-	require_once($_SERVER['DOCUMENT_ROOT']."/header.php");
+	require_once(dirname(__FILE__)."/header.php");
 	?>
 	
 	<?php
-	require_once($_SERVER['DOCUMENT_ROOT']."/menu.php");
+	require_once(dirname(__FILE__)."/menu.php");
 	?>
 	
 	<div class="content" id="promocaoContent">
@@ -100,7 +100,7 @@ DO VENCEDOR
 	</div>
 	
 	<?php
-	require_once($_SERVER['DOCUMENT_ROOT']."/footer.php");
+	require_once(dirname(__FILE__)."/footer.php");
 	?>
 </body>
 </html>

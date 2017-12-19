@@ -54,9 +54,9 @@ var WRInitTime=(new Date()).getTime();
 
 <?php
 //Inclui o cabeçalho
-require_once($_SERVER['DOCUMENT_ROOT']."/header.php");
+require_once(dirname(__FILE__)."/header.php");
 //Inclui o menu
-require_once($_SERVER['DOCUMENT_ROOT']."/menu.php");
+require_once(dirname(__FILE__)."/menu.php");
 ?>
 <div class="content" id="clientesContent">
 
@@ -102,7 +102,7 @@ require_once($_SERVER['DOCUMENT_ROOT']."/menu.php");
 
 </div>
 <?php
-require_once($_SERVER['DOCUMENT_ROOT'].$caminho."/footer.php");
+require_once(dirname(__FILE__)."/footer.php");
 ?>
 <!-- ClickTale Bottom part -->
 <div id="ClickTaleDiv" style="display: none;"></div>

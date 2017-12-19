@@ -41,8 +41,8 @@
 <!-- As palavras chave indexadas pelos sistemas de busca, os melhores sistemas de busca verificam no site se as palavras batem (match)-->
 <meta name="keywords" content="contato orçamento preço custo serviço" />
 
-<link href="/include/franciscomatelli_estilo.css" rel="stylesheet" type="text/css" />
-<link href="/include/contato.css" rel="stylesheet" type="text/css" />
+<link href="include/franciscomatelli_estilo.css" rel="stylesheet" type="text/css" />
+<link href="include/contato.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -53,11 +53,11 @@ var WRInitTime=(new Date()).getTime();
 <!-- ClickTale end of Top part -->
 
 	<?php
-	require_once($_SERVER['DOCUMENT_ROOT']."/header.php");
+	require_once(dirname(__FILE__)."/header.php");
 	?>
 	
 	<?php
-	require_once($_SERVER['DOCUMENT_ROOT']."/menu.php");
+	require_once(dirname(__FILE__)."/menu.php");
 	?>
 	
 	<div class="content" id="contatoContent">
@@ -153,7 +153,7 @@ var WRInitTime=(new Date()).getTime();
 	</div>
 	
 	<?php
-	require_once($_SERVER['DOCUMENT_ROOT']."/footer.php");
+	require_once(dirname(__FILE__)."/footer.php");
 	?>
 <!-- ClickTale Bottom part -->
 <div id="ClickTaleDiv" style="display: none;"></div>

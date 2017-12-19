@@ -51,8 +51,8 @@
 <meta name="keywords" content="Projetos, detalhes, descubra, clientes, satisfeitos, projetos" />
 
 <!-- Folha de estilo padrão -->
-<link href="/include/franciscomatelli_estilo.css" rel="stylesheet" type="text/css" />
-<link href="/include/portfolio.css" rel="stylesheet" type="text/css" />
+<link href="include/franciscomatelli_estilo.css" rel="stylesheet" type="text/css" />
+<link href="include/portfolio.css" rel="stylesheet" type="text/css" />
 
 <!-- Galeria de Imagem -->
 <script type="text/javascript" src="include/ibox/ibox.js"></script>
@@ -64,10 +64,10 @@
 
 <?php
 //Chama o cabeçalho e menu, FM 6/fev/08
-require_once($_SERVER['DOCUMENT_ROOT']."/header.php");
-require_once($_SERVER['DOCUMENT_ROOT']."/menu.php");
+require_once(dirname(__FILE__)."/header.php");
+require_once(dirname(__FILE__)."/menu.php");
 
-if($_GET['projeto'])
+if(isset($_GET['projeto']))
 $trilha = "<span class='trilha'><a href='index.php'>Home</a> > <a href='portfolio.php'>Portfolio</a> > </span><span class='trilhaDestaque'>".$_GET['titulo']."</span>";
 else
 $trilha = "<span class='trilha'><a href='index.php'>Home</a> > <a href='portfolio.php'>Portfolio</a></span>";
@@ -130,14 +130,13 @@ $arte = array($crs);
 						$var = "arte";
 						
 						//As linhas são iguais, só mudam o array, então para ficar hiper dinamico fiz um super FOR loop For
-						if(${$var}[$i])
-						echo 
-						"<td id=\"col$u\">
-							<a href='/portfolio.php?projeto=".${$var}[$i][0]."&titulo=".${$var}[$i][2]."' id='aTabela'>
+						if(isset(${$var}[$i]))
+						print_r("<td id=\"col$u\">
+							<a href='portfolio.php?projeto=".${$var}[$i][0]."&titulo=".${$var}[$i][2]."' id='aTabela'>
 								<p>".${$var}[$i][1]."</p>
 								<img src=\"imagens/portfolio/miniaturas/".${$var}[$i][5]."\" alt=\"".${$var}[$i][1]."\" />
 							</a>
-						</td>";
+						</td>");
 						else echo $itemVazio;
 						
 					}
@@ -151,7 +150,7 @@ $arte = array($crs);
 	<div id="portfolioVisualizador">
 		<?php
 		//Var, Titulo, Descrição, ano, miniatura, grande, link
-		if($_GET['projeto']) {
+		if(isset($_GET['projeto'])) {
 			echo '
 			<h1>'.${$_GET['projeto']}[2].'</h1>
 			<br />
@@ -188,7 +187,7 @@ $arte = array($crs);
 <?php
 
 //ESTA COM PROBLEMA, SEM FOOTER NESSA PÁGINA, FM 6/fev/08
-//require_once($_SERVER['DOCUMENT_ROOT']."/footer.php");
+//require_once(dirname(__FILE__)."/footer.php");
 ?>
 
 </body>
