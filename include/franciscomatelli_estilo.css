@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* 
+Voce está lendo o CSS do meu site, esse site tem a intenção de ser encaixar 100% nos padrões w3, portanto o CSS não poderia ser muito pequeno
+
+FAQ
+A-Como posicionar as caixinhas?
+R-Definindo a posição como absolut, sendo que o eixo 0,0 é relativo a o último objeto com posição definida, no caso o menu... não entendeu? =(
+
+A-O site tem largura definida?
+R-O site parece não ter largura definida mas tem, apenas algumas linhas e imagens ocasionalmente extravasam essa largura para preencher monitores grandes
+
+A-Qual a estrutura do site?
+R-Gosto de imaginar 4 linhas:
+Header (cabeçalho, como logo e tals)
+Menu
+Content (o conteúdo em si)
+Footer (rodapé)
+
+A-Porque você usa os nomes em inglês?
+R-Prefira sempre nomes em inglês, dica SEO, melhora a semântica, por ex: fica mais claro para os sistemas de busca entender o site
+
+
+Francisco Matelli Matulovic
+24 de Agosto de 2008
+*/
+
+
+/* Resetador, inspirado no site da Visie.com.br */
+
+*{
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	/*list-style:none;*/
+	text-decoration:none;
+}
+ul {
+	padding-left:20px;
+}
+img {
+	border:0;
+}
+body {
+	background:url(../imagens/fundos/franciscoMatelli-fundo.jpg);
+}
+/* HEADER */
+#header {
+	margin:auto;
+	width:760px;
+	padding:5px 0 5px 20px;
+	height:50px;
+}
+
+#header img{
+	height:50px;
+}
+
+
+#header #francisco {
+	color:#003366;
+	font-family:Arial;
+}
+
+/* MENU */
+#tabelaMenu {
+	width:100%;
+	
+	border-bottom-width:2px;
+	border-bottom-style:solid;
+	border-bottom-color:#666666;
+	
+	border-top-width:2px;
+	border-top-style:solid;
+	border-top-color:#666666;
+	
+}
+#tabelaMenu td {
+	background-color:#1F92B3;
+	height:20px;
+}
+
+#menu {
+	/*height:30px;*/
+	width:760px;
+	margin:auto;
+	background:#1F92B3;
+	/*display:table;*/
+	height:26px;
+	width:760px;
+	/*width:100%;*/
+}
+
+#menu ul {
+	list-style:none;
+}
+
+#menu ul li {
+	display:inline;
+}
+
+#menu ul li a {
+	color:#FFF;
+	background:#1F92B3;
+	font-size:13px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	float:left;
+	padding:5px 20px;
+	margin-left:2px;
+}
+
+#menu ul li a:hover {
+	color:#1F92B3;
+	background:#FFF;
+}
+/*.destaque {
+	background-color:#006600;
+}*/
+/* SITE EM SI */
+.content {
+	padding:10px;
+	position:relative;
+	width:865px;
+	margin:auto;
+}
+
+.content h1 {
+	font-size:16px;
+	color:#1F92B3;
+}
+
+.content p {
+	color: #666666;
+}
+.content a{
+	color:#1F92B4;
+}
+.content a:hover{
+	color:#003399;
+}
+/**/
+#footer {
+	padding-top:20px;
+	position:relative;
+	width:100%;
+	color:#1F92B4;
+	font-size:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	height:100%;
+}
+#footer a{
+	color:#1F92B4;
+}
+#footer a:hover{
+	color:#003399;
+}
+#footer img{
+	padding:10px 50px 5px 50px;
+}

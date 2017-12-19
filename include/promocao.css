@@ -1,0 +1,22 @@
+/* Css da pagina.php, FM 6/fev/08 */
+#promocaoContent {
+	/*height:280px;*/
+}
+#promocaoContent p{
+	text-align:justify;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#promocaoContent h1{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#vtigerBox {
+
+}
+table tr {
+	vertical-align:top;
+}
+textarea {
+	text-align:justify;
+}

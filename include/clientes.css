@@ -1,0 +1,86 @@
+/* CAIXAS, ARQUIVO CSS SEPARADO 31 de AGO de 2008*/
+/* content tem que ser separado para na dar pau no wordpress */
+#clientesContent {
+	background:url(../imagens/fundos/clientes-fundo.png) no-repeat;
+	height:580px;
+}
+.caixa {
+	position:absolute;
+	border:solid #000 4px;
+	text-align:center;
+	overflow:hidden;
+	padding:2px;
+	width:105px;
+	height:105px;
+}
+/*.caixa:hover {
+	cursor:pointer;
+	background:#ECEC66;
+}*/
+
+.caixa h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	background:#FFF;
+	color:#1F92B3;
+}
+
+.caixa p{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+}
+
+/*posicao das caixas*/
+#caixa1 {
+	left:180px;
+	top:90px;
+	background:#7EC0EE;
+}
+#caixa2 {
+	left:335px;
+	top:27px;
+	background:#87CEFF;
+}
+#caixa3 {
+	left:486px;
+	top:90px;
+	background:#7EC0EE;
+}
+#caixa4 {
+	left:556px;
+	top:246px;
+	background:#6CA6CD;
+}
+#caixa5 {
+	left:491px;
+	top:401px;
+	background:#4A708B;
+}
+#caixa6 {
+	left:332px;
+	top:466px;
+	background:#3F6074;
+}
+#caixa7 {
+	left:174px;
+	top:401px;
+	background:#4A708B;
+}
+#caixa8 {
+	left:117px;
+	top:246px;
+	background:#6CA6CD;
+}
+/*
+SkyBlue1  	135 206 255  	
+SkyBlue2 	126 192 238 	
+SkyBlue3 	108 166 205 	
+SkyBlue4 	74 112 139 	
+background:#87CEFF;
+background:#7EC0EE;
+background:#6CA6CD;
+background:#4A708B;
+#caixa1:hover {
+	background:#FFF;
+	color:#1F92B3;
+}*/

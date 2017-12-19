@@ -1,0 +1,12 @@
+[12-May-2009 23:33:17] PHP Fatal error:  Call to undefined function get_header() in /home/bazardas/public_html/index.php on line 1
+[12-May-2009 23:33:18] PHP Fatal error:  Call to undefined function get_header() in /home/bazardas/public_html/index.php on line 1
+[12-May-2009 23:33:19] PHP Fatal error:  Call to undefined function get_header() in /home/bazardas/public_html/index.php on line 1
+[12-May-2009 23:33:19] PHP Fatal error:  Call to undefined function get_header() in /home/bazardas/public_html/index.php on line 1
+[12-May-2009 23:33:23] PHP Fatal error:  Call to undefined function get_header() in /home/bazardas/public_html/index.php on line 1
+[12-May-2009 23:33:24] PHP Fatal error:  Call to undefined function get_header() in /home/bazardas/public_html/index.php on line 1
+[12-May-2009 23:33:25] PHP Fatal error:  Call to undefined function get_header() in /home/bazardas/public_html/index.php on line 1
+[12-May-2009 23:33:25] PHP Fatal error:  Call to undefined function get_header() in /home/bazardas/public_html/index.php on line 1
+[12-May-2009 23:41:01] PHP Warning:  require(/blog/wp-blog-header.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/bazardas/public_html/index.php on line 17
+[12-May-2009 23:41:01] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/blog/wp-blog-header.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bazardas/public_html/index.php on line 17
+[12-May-2009 23:41:02] PHP Warning:  require(/blog/wp-blog-header.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/bazardas/public_html/index.php on line 17
+[12-May-2009 23:41:02] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/blog/wp-blog-header.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/bazardas/public_html/index.php on line 17

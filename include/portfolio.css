@@ -1,0 +1,152 @@
+/* Css da pagina.php, FM 6/fev/08 */
+#divaoContent {
+	/*background:#6699CC;*/
+}
+#portfolioMenu {
+	margin-top:20px;
+	float:left;
+	position:relative;
+	width:350px;
+	text-align:center;
+}
+#portfolioVisualizador {
+	margin-top:40px;
+	float:right;
+	position:relative;
+	text-align:justify;
+	width:400px;
+	padding:8px;
+	/*
+	border-right-width:2px;
+	border-right-style:solid;
+	border-right-color:#666666;
+	
+	border-left-width:2px;
+	border-left-style:solid;
+	border-left-color:#666666;*/
+	border:solid #1F92B3 2px;
+	background:url(../imagens/portfolio/portfolioDegrade.png) repeat-x bottom #E6F2FF;
+}
+/**/
+#portfolioVisualizador h1{
+	text-align:center;
+}
+#portfolioVisualizador img{
+	border:solid #1F92B3 2px;
+}
+/**/
+#portfolioMenu p{
+	text-align:justify;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#portfolioMenu h1{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+#portfolioVisualizador img {
+	width:400px;
+	height:300px;
+}
+/* Tabela */
+#tabelaMiniaturas {
+	text-align:center;
+}
+#tabelaMiniaturas thead {
+	/*background-color:#003366;*/
+	font-weight:bold;
+	font-family:Trebuchet MS;
+	font-size:16px;
+}
+#tabelaMiniaturas tbody tr {
+	height:90px;
+}
+#tabelaMiniaturas td {
+	border:#FFF double 2px;
+	border-bottom:1px;
+	border-top:0;
+	overflow:hidden;
+}
+#tabelaMiniaturas p {
+	text-align:center;
+	margin:0px;
+	color:#FFFFFF;
+	width:80px;
+	overflow:hidden;
+	font-weight:bold;
+	font-size:12px;
+}
+#tabelaMiniaturas thead td{
+	width:80px;
+	overflow:hidden;
+}
+#tabelaMiniaturas thead #col1{
+	background:transparent;
+	color:#87CEFF;
+}
+#tabelaMiniaturas thead #col2{
+	background:transparent;
+	color:#7EC0EE;
+}
+#tabelaMiniaturas thead #col3{
+	background:transparent;
+	color:#6CA6CD;
+}
+#tabelaMiniaturas thead #col4{
+	background:transparent;
+	color:#4A708B;
+}
+#col1{
+	background:url(../imagens/portfolio/portfolioDegrade.png) #87CEFF;
+}
+#col2{
+	background:url(../imagens/portfolio/portfolioDegrade.png) #7EC0EE;
+}
+#col3{
+	background:url(../imagens/portfolio/portfolioDegrade.png) #6CA6CD;
+}
+#col4{
+	background:url(../imagens/portfolio/portfolioDegrade.png) #4A708B;
+}
+#col1:hover{
+	background:url(../imagens/portfolio/portfolioDegradeHover.png) #87CEFF;
+}
+#col2:hover{
+	background:url(../imagens/portfolio/portfolioDegradeHover.png) #7EC0EE;
+}
+#col3:hover{
+	background:url(../imagens/portfolio/portfolioDegradeHover.png) #6CA6CD;
+}
+#col4:hover{
+	background:url(../imagens/portfolio/portfolioDegradeHover.png) #4A708B;
+}
+/*Tem que ter #tabelaMiniaturas tbody  no começo de casa senao quando passar o mouse nos titulos buga legal*/
+#tabelaMiniaturas tbody #col1:hover, #tabelaMiniaturas tbody #col2:hover, #tabelaMiniaturas tbody #col3:hover, #tabelaMiniaturas tbody #col4:hover{
+	border-top:solid #FFFFFF 3px;
+	border-bottom:solid #FFFFFF 3px;
+}
+#aTabela {
+	width:100%;
+	height:100%;
+}
+#aTabela:hover p{
+	font-weight:bold;
+}
+/* Detalhes específicos, FM 6/fev/08 */
+.trilha {
+	font-size:12px;
+}
+.trilha a {
+	color:#666666;
+}
+.trilha a:hover {
+	color:#1F92B4;
+}
+.trilhaDestaque {
+	font-size:13px;
+	color:#1F92B4;
+}
+.pDestaque {
+	color:#1F92B4;
+	font-weight:bold;
+}

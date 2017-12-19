@@ -1,0 +1,84 @@
+/* CAIXAS, ARQUIVO CSS SEPARADO 31 de AGO de 2008*/
+/* content tem que ser separado para na dar pau no wordpress */
+#servicosContent {
+	background:url(../imagens/fundos/servicos-fundo.png) no-repeat;
+	height:560px;
+}
+.caixa {
+	position:absolute;
+	border:solid #000 4px;
+	text-align:center;
+	overflow:hidden;
+	padding:8px;
+	vertical-align:middle;
+	/*background:#339999;*/
+}
+/*.caixa:hover {
+	cursor:pointer;
+	background:#ECEC66;
+}*/
+
+.caixa h1{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	color:#1F92B3;
+}
+
+.caixa p{
+	font-family:Trebuchet MS;
+	color:#000;
+}
+
+/*First*/
+#caixa1 {
+	padding-top:4px;
+	width:228px;
+	height:18px;
+	left:45px;
+	top:258px;
+}
+#caixa2 {
+	background:#1F92B3;
+	text-align:justify;
+	width:228px;
+	height:134px;
+	left:45px;
+	top:87px;
+}
+
+/*Secoond*/
+#caixa3 {
+	padding-top:2px;
+	width:134px;
+	height:16px;
+	left:149px;
+	top:456px;
+}
+#caixa3 h1{
+	color:#CC6633;
+}
+#caixa4 {
+	background:#E09F85;
+	width:134px;
+	height:72px;
+	left:149px;
+	top:354px;
+}
+/*Third*/
+#caixa5 {
+	padding-top:2px;
+	width:160px;
+	height:16px;
+	left:557px;
+	top:348px;
+}
+#caixa5 h1{
+	color:#62AF58;
+}
+#caixa6 {
+	background:#62AF58;
+	width:160px;
+	height:90px;
+	left:557px;
+	top:225px;
+}

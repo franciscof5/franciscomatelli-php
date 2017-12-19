@@ -1,0 +1,61 @@
+/*Novo formulário de contato, espero conseguir mais contato - 26/jan/09 */
+#contatoContent {
+	background:url(../imagens/fundos/contato-fundo.png) no-repeat;
+	height:520px;
+}
+#contatoContent p {
+	color:#FFFFFF;
+}
+
+#tabela {
+	width:100%;
+	vertical-align:top;
+}
+#tabela td {
+	vertical-align:top;
+	/*border:4px double #B5FF6A;*/
+	padding:6px;
+}
+
+/**/
+.penduricalho {
+	border:solid #000 4px;
+	padding:4px;
+	position:absolute;
+	overflow:hidden;
+}
+#pendu1 {
+	background:#1F92B3;
+	width:336px;
+	height:112px;
+	left:81px;
+	top:28px;
+}
+#pendu2 {
+	background:#1F92B3;
+	width:175px;
+	height:398px;
+	left:516px;
+	top:28px;
+}
+#pendu1 h1,#pendu2 h1 {
+	color:#1F92B3;
+	background:#FFF;
+}
+#pendu3 {
+	background:#62AF58;
+	width:427px;
+	height:324px;
+	left:32px;
+	top:195px;
+}
+#pendu3 h1 {
+	color:#62AF58;
+	background:#FFF;
+}
+#submit {
+	background:#1F92B3;
+	font-weight:bold;
+	font:Trebuchet MS;
+	border:#000 solid 2px;
+}

@@ -1,0 +1,189 @@
+/* CAIXAS, ARQUIVO CSS SEPARADO 31 de AGO de 2008*/
+/* content tem que ser separado para na dar pau no wordpress */
+
+/* CORPO */
+#indexTopo {
+	
+}
+#indexTopo p {
+	width:865px;
+	margin:auto;
+}
+#indexContent {
+	/*background:url(../imagens/fundos/index-fundo.png) no-repeat;
+	height:580px;*/
+}
+/* CAIXAS*/
+.caixa {
+	position:absolute;
+	border:solid #000033 2.5px;
+	text-align:center;
+	overflow:hidden;
+	padding:2px;
+	background:#62AF58;
+}
+.caixa:hover {
+	cursor:pointer;
+}
+
+.caixa2 {
+	position:absolute;
+	border:solid #000033 2.5px;
+	text-align:center;
+	overflow:hidden;
+	padding:2px;
+	background:#FFF;
+}
+
+.caixa h1{
+	font-size:16px;
+	background:#FFF;
+	color:#62AF58;
+}
+
+.caixa p{
+	color:#FFF;
+}
+
+.caixa a{
+	color:#FFF;
+}
+
+.caixa2 h1{
+	font-size:16px;
+	background:#FFF;
+	color:#1F92B3;
+}
+
+.caixa2 p{
+	color:#1F92B3;
+}
+
+
+/* Apenas a posição das caixas de CIMA */
+#caixaCima1 {
+	width:110px;
+	height:80px;
+	left:33px;
+	top:164px;
+}
+
+#caixaCima2 {
+	width:170px;
+	height:104px;
+	left:80px;
+	top:15px;
+}
+
+#caixaCima3 {
+	width:128px;
+	height:85px;
+	left:270px;
+	top:117px;
+}
+
+#caixaCima4 {
+	width:110px;
+	height:80px;
+	left:472px;
+	top:142px;
+}
+
+#caixaCima5 {
+	width:152px;
+	height:89px;
+	left:488px;
+	top:15px;
+}
+
+#caixaCima6 {
+	width:116px;
+	height:67px;
+	left:655px;
+	top:97px;
+}
+
+#caixaCima1:hover,#caixaCima2:hover,#caixaCima3:hover,#caixaCima4:hover,#caixaCima5:hover,#caixaCima6:hover {
+	cursor:pointer;
+	background:#006633;
+	color:#62AF58;
+}
+/* Apenas a posição das caixas de BAIXO */
+#caixaBaixo1 {
+	width:125px;
+	height:92px;
+	left:13px;
+	top:330px;
+}
+
+#caixaBaixo2 {
+	width:160px;
+	height:110px;
+	left:95px;
+	top:476px;
+}
+
+#caixaBaixo3 {
+	width:125px;
+	height:88px;
+	left:275px;
+	top:340px;
+}
+
+#caixaBaixo4 {
+	width:116px;
+	height:75px;
+	left:300px;
+	top:446px;
+}
+
+#caixaBaixo5 {
+	width:118px;
+	height:78px;
+	left:450px;
+	top:344px;
+}
+
+#caixaBaixo6 {
+	width:125px;
+	height:90px;
+	left:552px;
+	top:440px;
+}
+
+#caixaBaixo7 {
+	width:100px;
+	height:75px;
+	left:666px;
+	top:328px;
+}
+
+/*
+#caixaBaixo1 caixa.h1{
+	color:#1F92B3;
+}*/
+#caixaBaixo1:hover,#caixaBaixo2:hover,#caixaBaixo3:hover,#caixaBaixo4:hover,#caixaBaixo5:hover,#caixaBaixo6:hover,#caixaBaixo7:hover {
+	background:#AAA;
+	cursor:pointer;
+}
+
+/* Caixa do Meio */
+#caixaMeio {
+	width:100%;
+	position:absolute;
+	top:370px;
+}
+p.paragrafoMeio {
+	font-family:Trebuchet MS;
+	font-weight:bold;
+	font-size:18px;
+	/*padding-left:325px;*/
+	text-align:center;
+	height:20px;
+	color:#808080;
+}
+
+hr.halfLine {
+	border:3px solid #808080;
+	height: 5px;
+}
