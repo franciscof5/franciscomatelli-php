@@ -36,13 +36,19 @@
 
 <!-- Alterar essas tags para melhorar a SEO -->
 <!-- Serve para descreve o site, mas para os grandes sistema de busca, a tag description ou é ignorada ou então praticamente irrelevante devido ao SPAMMING e utilização de falsas informações-->
-<meta name="description" content="Francisco Matelli, Francisco Matelli Matulovic, é um consultor especialista em web e padrões, desenvolvendo há anos advergames para a web, é uma empresa que desenvolve sites páginas e jogos para a internet" /> 
+<meta name="description" content="Francisco Matelli é um consultor especialista em web e padrões, desenvolvendo sites há anos. Especialista em customização do vtiger e sistemas. Também possuo trabalhos na área de advergames." /> 
 
 <!-- As palavras chave indexadas pelos sistemas de busca, os melhores sistemas de busca verificam no site se as palavras batem (match)-->
-<meta name="keywords" content="Francisco Matelli advergames sites padrões web blog notícias projetos jogos adverjogos criação" />
+<meta name="keywords" content="Francisco Matelli, vtiger, vtigerCRM, wordpress, wp, customização, customizacao, advergames, sites, padrões web, blog, notícias, projetos, jogos, adverjogos, criação" />
 
+<!-- Meta tag do Goole Webmaster, para verificar se o site é meu (nos meus 2 usuários)
+<meta name="verify-v1" content="gsQ3J0aTxACrBFU0ra7tecbJtrQKEfJRBrnvGB3JIBg=" /> -->
+<meta name="verify-v1" content="e0XIJdy0xNVV5D3coDd3W1l5WDflU8qZs3mpEtfvw2Q=" />
+
+<!-- Folha de estilo padrão -->
 <link href="include/franciscomatelli_estilo.css" rel="stylesheet" type="text/css" />
 <link href="include/index.css" rel="stylesheet" type="text/css" />
+<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -61,70 +67,95 @@ var WRInitTime=(new Date()).getTime();
 	<?php
 	require_once(dirname(__FILE__)."/menu.php");
 	?>
-	
-	<div id="content">
-	
-		<div id="caixaCima1" class="caixa">
-		<h1>Sites</h1>
-		<p> Tenha seu espaço na internet </p>
-		</div>
+	<div id="indexTopo">
+		<p>
+			<object width="860" height="200">
+				<param name="movie" value="include/flash/topo_header.swf" />
+				<param name="wmode" value="transparent" />
+				 <param name="wmode" value="transparent">  
+				<embed wmode="transparent" src="include/flash/topo_header.swf" type="application/x-shockwave-flash" width="860" height="200" />
+				</object>
+		</p>
+	</div>
+	<div class="content" id="indexContent">
 		
-		<div id="caixaCima2" class="caixa">
-		<h1>Advergames</h1>
-		<p> Jogos online, feitos em flash, para colocar sua marca e promover sua empresa </p>
-		</div>
+	</div>
+	<!--
+	<div class="content" id="indexContent">
+		<a href='pagina.php?pag=Sites'>
+			<div id="caixaCima1" class="caixa">
+			<h1>Sites</h1>
+			<p> Tenha seu espaço na internet </p>
+			</div>
+		</a>
 		
-		<div id="caixaCima3" class="caixa">
-		<h1>Serviços</h1>
-		<p> Customize seu wordpress, vtiger, oscom... </p>
-		</div>
+		<a href='pagina.php?pag=Customização'>
+			<div id="caixaCima2" class="caixa">
+			<h1> Customização </h1>
+			<p> WordPress: Templates. </p>
+			<p> vTigerCRM: Sistemas, módulos e modelos de email. </p>
+			</div>
+		</a>
 		
-		<div id="caixaCima4" class="caixa">
-		<h1>Blog</h1>
-		<p> Blog pessoal, artigos, dicas, notícias... </p>
-		</div>
+		<a href='pagina.php?pag=Advergames'>
+			<div id="caixaCima3" class="caixa">
+			<h1> Advergames </h1>
+			<p> Jogos em flash para promover sua empresa </p>
+			</div>
+		</a>
 		
-		<div id="caixaCima5" class="caixa">
-		<h1>Projetos pessoais</h1>
-		<p> Alguns projetos que eu desenvolvo por conta própria </p>
-		</div>
+		<a href='pagina.php?pag=Consultoria'>
+			<div id="caixaCima4" class="caixa">
+			<h1> Consultoria </h1>
+			<p> Melhore seu site, aumente suas vendas </p>
+			</div>
+		</a>
 		
-		<div id="caixaCima6" class="caixa">
-		<h1>Portfolio</h1>
-		<p> Conheça meus trabalhos </p>
-		</div>
+		<a href='pagina.php?pag=Projetos Pessoais'>
+			<div id="caixaCima5" class="caixa">
+			<h1>Projetos pessoais</h1>
+			<p> Alguns projetos que eu desenvolvo por conta própria </p>
+			</div>
+		</a>
 		
-		<div id="caixaBaixo1" class="caixa">
+		<a href='portfolio.php'>
+			<div id="caixaCima6" class="caixa">
+			<h1>Portfolio</h1>
+			<p> Conheça meus trabalhos </p>
+			</div>
+		</a>
+		
+		<div id="caixaBaixo1" class="caixa2">
 		<h1>PHP</h1>
 		<p> A linguagem de código aberto para o servidor </p>
 		</div>
 		
-		<div id="caixaBaixo2" class="caixa">
+		<div id="caixaBaixo2" class="caixa2">
 		<h1>(X)HTML</h1>
 		<p> Organizando a informação na web. Trabalhando dentros dos padrões w3. </p>
 		</div>
 		
-		<div id="caixaBaixo3" class="caixa">
+		<div id="caixaBaixo3" class="caixa2">
 		<h1>CSS</h1>
 		<p> O design feito por linhas de códigos </p>
 		</div>
 		
-		<div id="caixaBaixo4" class="caixa">
+		<div id="caixaBaixo4" class="caixa2">
 		<h1>MySQL</h1>
 		<p> Banco de dados gratuito e de código aberto </p>
 		</div>
 		
-		<div id="caixaBaixo5" class="caixa">
+		<div id="caixaBaixo5" class="caixa2">
 		<h1>AJAX</h1>
 		<p> O script dos browser </p>
 		</div>
 		
-		<div id="caixaBaixo6" class="caixa">
+		<div id="caixaBaixo6" class="caixa2">
 		<h1>Flash</h1>
 		<p> Poderosa ferramenta de animação </p>
 		</div>
 		
-		<div id="caixaBaixo7" class="caixa">
+		<div id="caixaBaixo7" class="caixa2">
 		<h1>Photoshop</h1>
 		<p> Tratamento de imagens </p>
 		</div>
@@ -133,10 +164,10 @@ var WRInitTime=(new Date()).getTime();
 	
 	<div id="caixaMeio">
 		<p class="paragrafoMeio"> O que você vê </p>
-		<hr class="halfLine"/>
-		<p class="paragrafoMeio"> O que você não vê </p>
+		<hr class="halfLine" >
+		<p class="paragrafoMeio"> O que eu vejo </p>
 	</div>
-	
+	-->
 	<?php
 	require_once(dirname(__FILE__)."/footer.php");
 	?>

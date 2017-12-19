@@ -1,37 +1,63 @@
 /* CAIXAS, ARQUIVO CSS SEPARADO 31 de AGO de 2008*/
 /* content tem que ser separado para na dar pau no wordpress */
-#content {
-	position:relative;
-	width:780px;
-	height:600px;
-	background:url(../imagens/fundos/index-fundo.png) no-repeat;
+
+/* CORPO */
+#indexTopo {
+	
+}
+#indexTopo p {
+	width:865px;
 	margin:auto;
 }
+#indexContent {
+	/*background:url(../imagens/fundos/index-fundo.png) no-repeat;
+	height:580px;*/
+}
+/* CAIXAS*/
 .caixa {
 	position:absolute;
-	/*background:#1F92B3;*/
 	border:solid #000033 2.5px;
 	text-align:center;
 	overflow:hidden;
 	padding:2px;
+	background:#62AF58;
 }
 .caixa:hover {
 	cursor:pointer;
-	background:#ECEC66;
+}
+
+.caixa2 {
+	position:absolute;
+	border:solid #000033 2.5px;
+	text-align:center;
+	overflow:hidden;
+	padding:2px;
+	background:#FFF;
 }
 
 .caixa h1{
-	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	background:#FFF;
+	color:#62AF58;
+}
+
+.caixa p{
+	color:#FFF;
+}
+
+.caixa a{
+	color:#FFF;
+}
+
+.caixa2 h1{
 	font-size:16px;
 	background:#FFF;
 	color:#1F92B3;
 }
 
-.caixa p{
-	font-family:Arial, Helvetica, sans-serif;
+.caixa2 p{
 	color:#1F92B3;
 }
-
 
 
 /* Apenas a posição das caixas de CIMA */
@@ -64,27 +90,24 @@
 }
 
 #caixaCima5 {
-	width:143px;
+	width:152px;
 	height:89px;
-	left:500px;
+	left:488px;
 	top:15px;
 }
 
 #caixaCima6 {
-	width:106px;
+	width:116px;
 	height:67px;
 	left:655px;
 	top:97px;
 }
 
-#caixaCima1,#caixaCima2,#caixaCima3,#caixaCima4,#caixaCima5,#caixaCima6 {
-	background:#E2F5FA;
-}
-
 #caixaCima1:hover,#caixaCima2:hover,#caixaCima3:hover,#caixaCima4:hover,#caixaCima5:hover,#caixaCima6:hover {
-	background:#AFE4F1;
+	cursor:pointer;
+	background:#006633;
+	color:#62AF58;
 }
-
 /* Apenas a posição das caixas de BAIXO */
 #caixaBaixo1 {
 	width:125px;
@@ -135,14 +158,13 @@
 	top:328px;
 }
 
-#caixaBaixo1,#caixaBaixo2,#caixaBaixo3,#caixaBaixo4,#caixaBaixo5,#caixaBaixo6,#caixaBaixo7 {
-	background:#CCC;
-}
+/*
 #caixaBaixo1 caixa.h1{
 	color:#1F92B3;
-}
+}*/
 #caixaBaixo1:hover,#caixaBaixo2:hover,#caixaBaixo3:hover,#caixaBaixo4:hover,#caixaBaixo5:hover,#caixaBaixo6:hover,#caixaBaixo7:hover {
 	background:#AAA;
+	cursor:pointer;
 }
 
 /* Caixa do Meio */
@@ -152,6 +174,7 @@
 	top:370px;
 }
 p.paragrafoMeio {
+	font-family:Trebuchet MS;
 	font-weight:bold;
 	font-size:18px;
 	/*padding-left:325px;*/
@@ -159,10 +182,8 @@ p.paragrafoMeio {
 	height:20px;
 	color:#808080;
 }
+
 hr.halfLine {
-	border: 0;
-	width: 100%;
-	color: #f00;
-	background-color: #808080;
+	border:3px solid #808080;
 	height: 5px;
 }
