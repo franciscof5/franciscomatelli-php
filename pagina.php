@@ -136,11 +136,11 @@ echo '</div>';
 	<div id="sidebarContent">
 		<div id="divSidebar">
 			<h1> Navegação Facilitada </h1>
-			<p><a href="/pagina.php?pag=Sites"><div><span class="h7">Sites:</span> Descubra como criar ou melhorar seu site</div></a></p>
-			<p><a href="/pagina.php?pag=Customização"><div><span class="h7">Customização:</span> Adaptar WordPress ou vTiverCRM</div></a></p>
-			<p><a href="/pagina.php?pag=Advergames"><div><span class="h7">Advergames:</span> Divulgar sua marca com jogos em flash</div></a></p>
-			<p><a href="/pagina.php?pag=Projetos Pessoais"><div><span class="h7">Projetos Pessoais:</span> O que estou desenvolvendo</div></a></p>
-			<p><a href="/portfolio.php"><div><span class="h7">Portfólio:</span> Conheceça alguns dos meus trabalhos</div></a></p>
+			<p><a href="pagina.php?pag=Sites"><div><span class="h7">Sites:</span> Descubra como criar ou melhorar seu site</div></a></p>
+			<p><a href="pagina.php?pag=Customização"><div><span class="h7">Customização:</span> Adaptar WordPress ou vTiverCRM</div></a></p>
+			<p><a href="pagina.php?pag=Advergames"><div><span class="h7">Advergames:</span> Divulgar sua marca com jogos em flash</div></a></p>
+			<p><a href="pagina.php?pag=Projetos Pessoais"><div><span class="h7">Projetos Pessoais:</span> O que estou desenvolvendo</div></a></p>
+			<p><a href="portfolio.php"><div><span class="h7">Portfólio:</span> Conheceça alguns dos meus trabalhos</div></a></p>
 		</div>
 		<div id="sidebarFundo">
 			&nbsp;

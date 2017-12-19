@@ -57,21 +57,21 @@
 	<div class="content" id="servicosContent">
 		<!-- First -->
 		<div class="caixa" id="caixa1">
-			<h1> Construção de site </h1>	
+			<h1> <a href="pagina.php?pag=Sites">Construção de site</a> </h1>	
 		</div>
 		<div class="caixa" id="caixa2">
 			<p> Com experiência de anos criando sites, com diversos clientes de diferentes ramos, posso garantir um produto de alta qualidade e uma negociação rápida! </p>	
 		</div>
 		<!-- Second -->
 		<div class="caixa" id="caixa3">
-			<h1> Consultoria </h1>
+			<h1> <a href="pagina.php?pag=Sites">Consultoria</a> </h1>
 		</div>
 		<div class="caixa" id="caixa4">
 			<p> O melhor jeito para otimizar e divulgar seu site! </p>	
 		</div>
 		<!-- Third -->
 		<div class="caixa" id="caixa5">
-			<h1> Sistemas </h1>	
+			<h1> <a href="pagina.php?pag=Sites">Sistemas</a> </h1>	
 		</div>
 		<div class="caixa" id="caixa6">
 		<p> Instalação de sistemas de blog e loja virtual. Com funcionalidades especiais para você! </p>	

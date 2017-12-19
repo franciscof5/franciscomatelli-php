@@ -59,13 +59,13 @@
 	<br />
 	<p> Mas eu posso te ajudar, você pode está procurando: </p>
 	<br />
-	<p> <a href="/vtiger.php"> Sistemas de CRM: Qual o melhor sistema de CRM e como instalar? </a></p>
+	<p> <a href="vtiger.php"> Sistemas de CRM: Qual o melhor sistema de CRM e como instalar? </a></p>
 	<br />
-	<p> <a href="/pagina.php?pag=Advergames"> Advergames: Quero um jogo em flash para promover minha empresa </a></p>
+	<p> <a href="pagina.php?pag=Advergames"> Advergames: Quero um jogo em flash para promover minha empresa </a></p>
 	<br />
-	<p> <a href="/pagina.php?pag=Customização"> Customização de WordPress: criação de temas </a></p>
+	<p> <a href="pagina.php?pag=Customização"> Customização de WordPress: criação de temas </a></p>
 	<br />
-	<p> <a href="/pagina.php?pag=Sites"> Desenvolver ou melhorar meu site </a></p>
+	<p> <a href="pagina.php?pag=Sites"> Desenvolver ou melhorar meu site </a></p>
 </div>
 	
 	<?php
