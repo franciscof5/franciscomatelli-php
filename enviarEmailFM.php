@@ -10,6 +10,10 @@ $msg =
 "texto: ".$_POST['texto'];
 
 $expire=time()+60*60*24*30;
+if(isset($_POST['nome']))
+$nome=$_POST['nome'];
+else
+$nome="Visitante";
 setcookie("nomeVisitante", $_POST['nome'], $expire);
 
 $cabecalho = "From:Contato pelo Site <".$_POST['email'].">\r\n";

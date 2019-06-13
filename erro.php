@@ -47,11 +47,13 @@
 
 <body>
 	<?php
-	require_once(dirname(__FILE__)."/header.php");
+	#require_once(dirname(__FILE__)."/header.php");
+	require_once("header.php");
 	?>
 	
 	<?php
-	require_once(dirname(__FILE__)."/menu.php");
+	#require_once(dirname(__FILE__)."/menu.php");
+	require_once("menu.php");
 	?>
 	
 	<div class="content">
@@ -62,7 +64,8 @@
 	</div>
 	
 	<?php
-	require_once(dirname(__FILE__)."/footer.php");
+	#require_once(dirname(__FILE__)."/footer.php");
+	require_once("footer.php");
 	?>
 </body>
 </html>
